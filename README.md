@@ -2,7 +2,7 @@
 This is an application to check name matches from a pre-determined list of sanctioned individuals.
 
 Application build constraints, compared to the original requirements:
-- **Written in .NET 6 instead of Java** - due to the reason of better adhering to the time limit of a few hours to complete the task, and given the author's experience in .Net vs Java. But the logic still stands, no matter which language. If needed, the application can easily be ported to Java, but would take twice or more the time. 
+- **Written in .NET 6 instead of Java** - due to the reason of better adhering to the time limit of a few hours to complete the task, given the author's differing experience in .Net vs Java and therefore the familiarity differences between libraries. But the logic still stands, no matter which language. If needed, the application can easily be ported to Java, but would take twice or more the time at the current moment from the author. 
 - **Sanctioned individual's list is in CSV format, at the root of the project** - the originally provided link to the sanctioned individual's list was broken. So the author improvised, and downloaded a CSV file containing a list of sanctioned individuals from https://www.eeas.europa.eu/eeas/european-union-sanctions_en instead.
 - **The application uses an internal custom cache to store the data** - in stead of a full-feature in memory database, such as EntityFramework, which seems a bit of an overkill in the current situation.
 
