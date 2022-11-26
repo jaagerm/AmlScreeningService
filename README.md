@@ -14,7 +14,7 @@ Application build constraints, compared to the original requirements:
 - navigate to the root folder of this repository in console
 - run "dotnet build"
 - run "dotnet run AmlScreeningService\bin\Debug\net6.0\AmlScreeningService.exe"
-- Example of api usage. Change name value as neccessary: "https://localhost:7230/amllist?name=Marat Siarheevich MARKAU"
+- Example of api usage. Change name value as neccessary: "https://localhost:7230/amllist?name=NameToLookForGoesHere"
 
 ## Additional notes about AWS hosting and strucutre
 - Regarding hosting - the application could be hosted on EKS (Elastic Kubernetes Service) with an API gateway in front of it, for managing and securing the API connectivity to the outside world (if needed).
